@@ -1,0 +1,16 @@
+term xterm-256color
+terminfo rxvt-unicode ti@:te@:
+setenv LC_CTYPE en_US.UTF-8
+
+altscreen on
+startup_message off
+vbell off
+autodetach on
+altscreen on
+shelltitle "$ |"
+defscrollback 5000
+compacthist on
+defutf8 on
+nonblock on
+
+hardstatus alwayslastline '%{= G} %H %= %{= w}%-w%{+b r}%n*%t%{-b r}%{w}%+w %= %{G}%d %D %{G}%c '
